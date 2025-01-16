@@ -1,0 +1,33 @@
+
+h1{
+    text-align: center;
+
+}
+
+/*-----SMARTPHONE---- */
+@media screen and (max-width: 480px){
+    body{
+        background: yellow;
+    }
+    h1{
+        font-size: 1rem;
+    }
+}
+/*-----TABLET---- */
+@media screen and (min-width: 481px) and (max-width: 1279px){
+    body{
+        background: orange;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
+/*-----ORDINADOR---- */
+@media screen and (min-width: 1280px){
+    body{
+        background: cyan;
+    }
+    h1{
+        font-size: 4rem;
+    }
+}
